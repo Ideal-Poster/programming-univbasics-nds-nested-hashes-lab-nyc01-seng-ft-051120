@@ -39,4 +39,5 @@ def aoh_update(aoh, row, key, new_value)
   # Return the updated AoH
   # binding.pry
   aoh[row][key] = new_value
+  aoh
 end
